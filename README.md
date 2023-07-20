@@ -4,3 +4,6 @@
 
 Public Wall is ancient-themed website that allows people to write anonymous message and leave it for eternity.
 
+## gallery
+
+![main page](./assets/main_page.jpeg)
