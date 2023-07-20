@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ancient Forest Blog</title>
+    <style>
+        body {
+            background-color: #d4c7a5;
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("forest_bg.jpg"); /* Replace with an actual forest background image */
+            background-repeat: repeat;
+            background-position: center;
+        }
+
+        .container {
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .navbar {
+            background-color: #8b6914;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 2px solid #8b0000;
+        }
+
+        .navbar-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #8b0000;
+            text-shadow: 2px 2px #000;
+        }
+
+        .navbar-links {
+            margin-top: 10px;
+        }
+
+        .navbar-links a {
+            color: #8b0000;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            text-shadow: 1px 1px #000;
+        }
+
+        .post {
+            border: 2px solid #bcbcbc;
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .post-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #8b0000;
+            text-shadow: 1px 1px #000;
+        }
+
+        .post-date {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .post-content {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #222;
+        }
+
+        .like-button {
+            background-color: #c0c0c0;
+            color: #8b0000;
+            border: none;
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .like-button:hover {
+            background-color: #8b0000;
+            color: #f0f0f0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #8b6914;
+            color: #8b0000;
+            font-size: 12px;
+            border-top: 2px solid #8b0000;
+            text-shadow: 1px 1px #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-title">Public Wall - Leave your Message to Eternity</div>
+        <div class="navbar-links">
+            <a href="#">Home</a>
+            <a href="#">Write Your Message</a>
+        </div>
+        <br>
+        <form><input type="text" name="search" placeholder="Search keywords"/><button type="submit">Search</button> </form>
+    </div>
+
+    <div class="container">
+        <div class="post">
+            <div class="post-title">To my friend, long before you left...</div>
+            <div class="post-date">Date: July 20, 2023</div>
+            <div class="post-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod tortor a nibh aliquam, vel laoreet orci fringilla.
+            </div>
+            <button class="like-button">Like</button>
+        </div>
+
+        <div class="post">
+            <div class="post-title">I hope she reads this :-(</div>
+            <div class="post-date">Date: July 19, 2023</div>
+            <div class="post-content">
+                Nulla eu eros euismod, consectetur nisi vitae, luctus ipsum. Donec venenatis, augue nec varius tempus, tortor felis dignissim tellus.
+            </div>
+            <button class="like-button">Like</button>
+        </div>
+
+        <div class="post">
+            <div class="post-title">nooooooooo titleeeeeeeeeeeeee</div>
+            <div class="post-date">Date: July 18, 2023</div>
+            <div class="post-content">
+                Nunc vel aliquet turpis. Sed ultrices nibh eu blandit interdum. Vestibulum ac risus eu tortor facilisis elementum ac in lorem.
+            </div>
+            <button class="like-button">Like</button>
+        </div>
+
+        <!-- Add more posts here as needed -->
+
+    </div>
+
+    <div class="footer">
+        Public Wall &copy; 2023. All rights reserved. <a href="https://github.com/abstract-systems/">Contact Us</a>
+    </div>
+</body>
+</html>
