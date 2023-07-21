@@ -7,3 +7,8 @@ Public Wall is ancient-themed website that allows people to write anonymous mess
 ## gallery
 
 ![main page](./assets/main_page.jpeg)
+
+## running
+
+1. Clone the repository
+2. In the root directory, run `python manage.py runserver`
