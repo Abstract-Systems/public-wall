@@ -1,8 +1,10 @@
+<!-- signup.html -->
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Public Wall</title>
-    <style>
+    <title>Ancient Forest Blog - Signup</title>
+        <style>
         body {
             background-color: #d4c7a5;
             font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -107,39 +109,21 @@
             <a href="#">Write Your Message</a>
         </div>
         <br>
-        <form><input type="text" name="search" placeholder="Search keywords"/><button type="submit">Search</button> </form>
+        <form method="get" action="/signup/">
+            <input type="text" name="search" placeholder="Search keywords"/>
+            <button type="submit">Search</button>
+        </form>
     </div>
 
     <div class="container">
-        <div class="post">
-            <div class="post-title">To my friend, long before you left...</div>
-            <div class="post-date">Date: July 20, 2023</div>
-            <div class="post-content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod tortor a nibh aliquam, vel laoreet orci fringilla.
-            </div>
-            <button class="like-button">Like</button>
-        </div>
-
-        <div class="post">
-            <div class="post-title">I hope she reads this :-(</div>
-            <div class="post-date">Date: July 19, 2023</div>
-            <div class="post-content">
-                Nulla eu eros euismod, consectetur nisi vitae, luctus ipsum. Donec venenatis, augue nec varius tempus, tortor felis dignissim tellus.
-            </div>
-            <button class="like-button">Like</button>
-        </div>
-
-        <div class="post">
-            <div class="post-title">nooooooooo titleeeeeeeeeeeeee</div>
-            <div class="post-date">Date: July 18, 2023</div>
-            <div class="post-content">
-                Nunc vel aliquet turpis. Sed ultrices nibh eu blandit interdum. Vestibulum ac risus eu tortor facilisis elementum ac in lorem.
-            </div>
-            <button class="like-button">Like</button>
-        </div>
-
-        <!-- Add more posts here as needed -->
-
+        <h2>Yeahhhh comee!</h2>
+        <form method="post">
+            {% csrf_token %}
+            <input type="email" name="email" placeholder="Email"><br>
+          <input type="password" name="password" placeholder="Password"><br>
+          <input type="password" name="password_again" placeholder="Password again"><br>
+            <button type="submit">login & if account doesn't exist, create my account</button>
+        </form>
     </div>
 
     <div class="footer">
